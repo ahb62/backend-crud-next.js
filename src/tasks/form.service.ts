@@ -21,4 +21,9 @@ export class FormService {
     console.log(newForm);
     return "saved!";
   }
+
+  async updateForm(id: any) {
+    await this.formModel.findById(id);
+    
+  }
 }

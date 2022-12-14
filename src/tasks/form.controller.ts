@@ -33,5 +33,9 @@ export class FormController {
     return this.formService.createPost(form);
   }
 
+  // @Put(":id")
+  // updateForm(@Param("formId") formId: any, @Body() updateFormDto: UpdateFormDto) {
+  //   return this.formService.updateForm(updateFormDto);
+  // }
 
 }
